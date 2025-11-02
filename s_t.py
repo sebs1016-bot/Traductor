@@ -14,6 +14,15 @@ import glob
 from gtts import gTTS
 from googletrans import Translator
 
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(135deg, #2c0000, #d4a017);
+    color: #111;
+    font-family: 'Georgia', serif;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.title("TRADUCTOR.")
 st.subheader("Escucho lo que quieres traducir.")
